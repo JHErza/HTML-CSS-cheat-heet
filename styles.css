@@ -1,18 +1,13 @@
 body{
-    background-image: url('https://www.blogenium.com/wp-content/uploads/2019/08/blogenium-cool-technologies-wallpapers-18.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;  
-background-size: cover;
-color: white;
-  }
-.tag{
-    border: solid, 3px;
-    margin-left: 600px;
+    background-color: purple;
+
 }
-.body {
-    background-image: url('https://thumbs.gfycat.com/AcceptableFriendlyBabirusa-size_restricted.gif');
-    background-repeat: no-repeat;
-background-attachment: fixed;  
-background-size: cover;
-color: white;
+.tag{
+    border:5px dotted gray;
+}
+.tags{
+    border:5px dotted #6d6c6f;
+}
+.tages{
+    border:5px dotted black;
 }

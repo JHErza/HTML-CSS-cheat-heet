@@ -2,35 +2,59 @@
 <html>
     <head>
         <title>Text Tags</title>
-        <link type=“text/css” href=“styles.css” rel=“stylesheet”>
+       <link href="styles.css" rel="stylesheet">
     </head>
     <body>
         <h1> Text Tags</h1>
         <a href="MainPage.html">Home</a>
-        <a href=“bodyattributes.html”>Back</a>
+        <a href="bodyattributes.html">Back</a>
         <a href="Formatting.html"> Next</a>
         <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Web Page</a>
 
       <div class="tag"> 
-          <h2> pre > / pre></h2>
+          <h2> &lt;pre&gt; &lt;/pre&gt;</h2>
           <h3>Creates performated Text</h3>
       </div>
-    <h2> < h1> </ h1>--< h6> </ h6></h2>
+      <div class="tag">
+    <h2>  &lt;h1&gt; &lt;/h1&gt;-- &lt;h6&gt; &lt;/h6&gt;</h2>
     <h3> Creates bold text</h3>
-    <h2> < b > </ b></h2>
+    </div>
+    <div class="tag">
+    <h2> &lt;b&gt; &lt;/b&gt;</h2>
     <h3> Creates bold text</h3>
-    <h2>< i> </ i></h2> 
+    </div>
+    <div class="tag">
+    <h2> &lt;i&gt; &lt;/i&gt;</h2> 
     <h3> Creates italicized
-    <h2> < tt> </ tt></h2>
-    <h3>Creates typewriter </h3>
-    <h2> < code> </ code></h2>
-    <h3> Used a citation, usually processed in italics</h3>
-    <h2> < cite> </ cite></h2>
+    </div>
+    <div class="tag">
+    <h2> &lt;tt&gt; &lt;/tt&gt;</h2>
+    <h3>Creates typewriter </h3> 
+    </div>
+    <div class="tag">
+    <h2>  &lt;code&gt; &lt;/code&gt;</h2>
+    <h3> Used a citation, usually processed in italics</h3> 
+    </div>
+    <div class="tag">
+    <h2>  &lt;cite&gt; &lt;/cite&gt;</h2>
     <h3> Creates address section, usually processed in italics</h3>
-    <h2> < address> </ address></h2>
+    </div>
+    <div class="tag">
+    <h2>  &lt;address&gt; &lt;/address&gt;</h2>
     <h3> Cretaes address section, usually processed in italics</h3>
-    <h2> < em ></ em></h2>
+    </div>
+    <div class="tag">
+    <h2>  &lt;em&gt; &lt;/em&gt;</h2>
     <h3> Emphasizes a word</h3>
-    
+    </div>
     </body>
+    <style>
+        body{
+    background-image: url('data:image/jpeg;base64,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');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+        }
+    </style>
 </html>
